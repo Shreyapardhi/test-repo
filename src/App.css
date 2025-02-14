@@ -1,0 +1,18 @@
+.d-flex {
+  display: flex;
+  flex-direction: row; /* Align children horizontally (default behavior) */
+  width: 100%;
+  /* height: 100vh;  */
+}
+
+.Sidebar {
+  width: 250px; /* or whatever width you want for the Sidebar */
+  background-color: #f4f4f4; /* Optional: for Sidebar styling */
+  /* Add more styling if needed */
+}
+
+.Dashboard {
+  flex-grow: 1; /* Allow Dashboard to take up the remaining space */
+  background-color: #ffffff; /* Optional: for Dashboard styling */
+  /* Add more styling if needed */
+}
